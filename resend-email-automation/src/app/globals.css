@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this in globals.css for basic styling */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+input, button {
+  @apply outline-none;
+}
